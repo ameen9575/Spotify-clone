@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDU-SPOTIFY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./usual.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./music.css">
+</head>
+
+<body>  
+    <div class="container">
+        <div class="left-container">
+            <header>
+                <div class="header-container">
+                    <div class="logo"><a href="./index.html"><i class="fa-brands fa-spotify"></i> <span>Spotify</span></a></div>
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>Search</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <aside>
+                <div class="bottom-header">
+                    <div class="library">
+                        <div class="library-head">
+                            <a href="#"><i class="fa-solid fa-list"></i>Playlist</a>
+                        </div>
+                        <div class="library-plus">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="plalist">
+                        <div class="playlist-cart-container">
+                            <div class="create-plalist">
+                                <h3>Create your first playlist</h3>
+                                <p>it's easy, we'll help you</p>
+                                <button>Create Playlist</button>
+                            </div>
+                            <div class="podcast">
+                                <h3>Let's find some podcasts to follow</h3>
+                                <p>we'll keep you updated on a new episode</p>
+                                <button>Browse Podcasts</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="site-bar-links">
+                        <div class="site-list-item">
+                            <ul>
+                                <li><a href="#">Legal</a></li>
+                                <li><a href="#">Security&Privacy center</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Cookies</a></li>
+                                <li><a href="#">About adds</a></li>
+                                <li><a href="#">Accessibility</a></li>
+                                <li><a href="#">Cookies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="english-botton">
+                        <button><i class="fa-solid fa-globe"></i><span>English</span></button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <div class="right-container">
+            <div class="navbar-container" id="navbar">
+                <div class="nav-bar">
+                    <div class="left-item">
+                        <div class="left-nav-icon">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </div>
+                        <div class="left-nav-icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="right-item">
+                        <div>
+                            <button>Sign Up</button>
+                        </div>
+                        <div>
+                            <button>Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-inner-container" id="scrollContainer"  onscroll="stickyNavbar()">
+                <main>
+                    <div class="top-list-container">
+                        <div class="playlist-img">
+                            <img src="https://i.scdn.co/image/ab676161000051748ae7f2aaa9817a704a87ea36" alt="img">
+                        </div>
+                        <div class="playlist-heading-container">
+                           <span>Album</span>
+                           <h1>JUSTIN BIEBER</h1>
+                           <div class="play-list-link">
+                               <ul>
+                                  <li>&#x1F784; <a href="#">Mithun</a></li>
+                                  <li>&#x1F784; <a href="#">Mithun</a></li>
+                                  <li>&#x1F784; <a href="#">justin bieber</a></li>
+                                  <li>&#x1F784; <a href="#">Selena GOLMEAZ</a></li>
+                                  <li>&#x1F784; 20</li>
+                                  <li>12 songs, 54 min 41sec</li>
+                               </ul>
+                           </div>
+                        </div>
+                    </div>
+
+                    <section class="plalist-songs">
+                          <div class="songs-header">
+                             <div class="songs-icon-left">
+                                <div class="songs-play-icon"><a href="#"><i class="fa solid fa-play"></i></a></div>
+                                <div class="wish-list-icon"><a href="#"><i class="fa-regular fa-heart"></i></a></div>
+                                <div class="disc-icon"><a href="#"><i class="fa-solid fa-ellipsis"></i></a></div>
+                             </div>
+                             <div class="songs-right-icon">
+                                <div class="list-icon_1"><span>List</span><a href="#"> <i class="fa-solid fa-list"></i></a></div>
+                             </div>
+                          </div>
+                    </section>
+                    <section class="plalist-songs-item">
+                        <div class="songs-list-header">
+                            <span>#Title</span>
+                            <span><i class="fa-regular fa-clock"></i></span>
+                        </div>
+                        <div class="songs-list-container">
+                            <div class="song-item">
+                                <span class="song-number">1</span>
+                                <i class="fa-solid fa-play play-icon"></i>
+                                <div class="song-details">
+                                    <div class="song-title">Song Title 1</div>
+                                    <div class="singer-name">Singer 1</div>
+                                </div>
+                                <div class="song-actions">
+                                    <i class="fa-regular fa-heart heart-icon"></i>
+                                    <div class="song-time">3:45</div>
+                                    <i class="fa-solid fa-ellipsis "></i>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">2</span>
+                                <i class="fa-solid fa-play play-icon"></i>
+                                <div class="song-details">
+                                    <div class="song-title">Song Title 2</div>
+                                    <div class="singer-name">Singer 2</div>
+                                </div>
+                                <div class="song-actions">
+                                    <i class="fa-regular fa-heart heart-icon"></i>
+                                    <div class="song-time">4:20</div>
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">3</span>
+                                <i class="fa-solid fa-play play-icon"></i>
+                                <div class="song-details">
+                                    <div class="song-title">Song Title 3 </div>
+                                    <div class="singer-name">Singer 3</div>
+                                </div>
+                                <div class="song-actions">
+                                    <i class="fa-regular fa-heart heart-icon"></i>
+                                    <div class="song-time">3:15</div>
+                                    <i class="fa-solid fa-ellipsis "></i>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">4</span>
+                                <i class="fa-solid fa-play play-icon"></i>
+                                <div class="song-details">
+                                    <div class="song-title">Song Title 4</div>
+                                    <div class="singer-name">Singer 4</div>
+                                </div>
+                                <div class="song-actions">
+                                    <i class="fa-regular fa-heart heart-icon"></i>
+                                    <div class="song-time">4:02</div>
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    <section id="musicPlayer" class="featured">
+                        <div class="featured-container">
+                            <div class="feature-headind"><h2>Fan also like</h2></div>
+                        </div>
+                        <div class="musicPlayer-item featured-item">
+                            
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab6761610000e5eb7a1fba1bb3618ef71355f82a" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>    Zayn  </h3>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT_siYFQRW-zwFSBa9QFJWr-E6X1yANUBiMA&s" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>Nick Jonas</h3>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab6761610000e5ebc3c753851496854e29abff7a" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>Selena Golmez</h3>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab6761610000e5eb679c995b0d4a641ba32aa5f0" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>Anne-Marise</h3>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab676161000051747ffadf2671159fbfdc5c87f4" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>Camila cabello</h3>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616100005174d5594e3ae145bbb2c096366d" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>Charlie Puth</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <footer class="footer">
+                    <div class="footer-col">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">For the Record</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Community</h3>
+                        <ul>
+                            <li><a href="#">For Artists</a></li>
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Visitor</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Free Mobile App</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Spotify Plan</h3>
+                        <ul>
+                            <li><a href="#">Premium Individual</a></li>
+                            <li><a href="#">Premium Duo</a></li>
+                            <li><a href="#">Premium Family</a></li>
+                            <li><a href="#">Spotify Free</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Follow Us</h3>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-diviser">
+                        <p>&copy; Spotify_clone 2024</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+        <div class="music-player">
+            <div class="song-bar">
+                <div class="song-infos">
+                    <div class="image-container">
+                        <img src="https://i.scdn.co/image/ab676161000051748ae7f2aaa9817a704a87ea36" alt="image" />
+                    </div>
+                    <div class="song-description">
+                        <p class="title">Watashitachi wa Sou Yatte Ikite Iku Jinshu na no</p>
+                        <p class="artist">Masaru Yokoyama</p>
+                    </div>
+                </div>
+                <div class="icons">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-compress"></i>
+                </div>
+            </div>
+            <div class="progress-controller">
+                <div class="control-buttons">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="play-pause fas fa-play"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-undo-alt"></i>
+                </div>
+                <div class="progress-container">
+                    <span class="current-time">0:00</span>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <span class="total-time">3:20</span>
+                </div>
+            </div>
+            <div class="other-features">
+                <i class="fas fa-list-ul"></i>
+                <i class="fas fa-desktop"></i>
+                <div class="volume-bar">
+                    <i class="fas fa-volume-down"></i>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <audio id="audio" src="sorry justin biber.mp3"></audio>
+        <script src="./script.js"></script>
+        <script src="./music.js"></script>
+    </div>
+</body>
+</html>

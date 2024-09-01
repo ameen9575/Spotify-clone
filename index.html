@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDU-SPOTIFY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="usual.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-container">
+            <header>
+                <div class="header-container">
+                    <div class="logo"><a href="./index.html"><i class="fa-brands fa-spotify"></i> <span>Spotify</span></a></div>
+                    <nav>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>Search</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <aside>
+                <div class="bottom-header"> 
+                    <div class="library">
+                        <div class="library-head">
+                            <a href="#"><i class="fa-solid fa-list"></i>Playlist</a>
+                        </div>
+                        <div class="library-plus">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="plalist">
+                        <div class="playlist-cart-container">
+                            <div class="create-plalist">
+                                <h3>Create your first playlist</h3>
+                                <p>it's easy, we'll help you</p>
+                                <button>Create Playlist</button>
+                            </div>
+                            <div class="podcast">
+                                <h3>Let's find some podcasts to follow</h3>
+                                <p>we'll keep you updated on a new episode</p>
+                                <button>Browse Podcasts</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="site-bar-links">
+                        <div class="site-list-item">
+                            <ul>
+                                <li><a href="#">Legal</a></li>
+                                <li><a href="#">Security&Privacy center</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Cookies</a></li>
+                                <li><a href="#">About adds</a></li>
+                                <li><a href="#">Accessibility</a></li>
+                                <li><a href="#">Cookies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="english-botton">
+                        <button><i class="fa-solid fa-globe"></i><span>English</span></button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <div class="right-container" >
+            <div class="navbar-container"  id="navbar">
+                <div class="nav-bar">
+                    <div class="left-item">
+                        <div class="left-nav-icon">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </div>
+                        <div class="left-nav-icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="right-item">
+                        <div>
+                            <button>Sign Up</button>
+                        </div>
+                        <div>
+                            <button>Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-inner-container" id="scrollContainer" onscroll="stickyNavbar()">
+                <main>
+                    <section id="featured">
+                        <div class="featured-container">
+                            <div class="feature-headind"><h2>Populer Artists</h2></div>
+                        </div>
+                        <div class="featured-item">
+                            <div class="featured-cart" >
+                                <div class="play-btn">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="cart-image">
+                                    <img src="https://i.scdn.co/image/ab676161000051748ae7f2aaa9817a704a87ea36" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>JUSTIN BIEBER</h3>
+                                   <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="featured-cart" >
+                                <div class="play-btn">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d00001e02fabd32dd9cefca8714c0ed41" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>SELEAN GOLMEAZ</h3>
+                                   <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="featured-cart" >
+                                <div class="play-btn">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d00001e020b04da4f224b51ff86e0a481" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>TAYLOR SWIFT</h3>
+                                   <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="featured-cart" >
+                                <div class="play-btn">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2730e8ba185f3e9f15630a7b5fb" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>HANNAH MONTANA</h3>
+                                   <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="featured-cart" >
+                                <div class="play-btn">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="cart-image">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnrxXi5KTbsrUivQLaQtDCUWBCzYEM4WFNJj23ZMOsrWhwTlIfO78UlN-yqbFeEQ0ezp8&usqp=CAU" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>MICHAEL JACKSON</h3>
+                                   <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="featured-cart" >
+                                <div class="play-btn">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="cart-image">
+                                    <img src="https://i.scdn.co/image/ab6761610000e5ebc8d3d98a1bccbe71393dbfbf" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>LADY GAGA</h3>
+                                   <p>Artist</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </section>
+                    <section id="musicPlayer" class="featured">
+                        <div class="featured-container">
+                            <div class="feature-headind"><h2>Populer Albums</h2></div>
+                        </div>
+                        <div class="musicPlayer-item featured-item">
+                            
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273e2a7f238d5a319237bc0bd19" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>TIME TRAVELLER M.I.A.</h3>
+                                   <p>PLAYLIST.GONNA GO
+                                    NIRVANA(HEY,hey,hey.....
+                                   </p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b27341e31d6ea1d493dd77933ee5" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>STAY (with justin bieber)</h3>
+                                   <p>E The Kid LAROI  , justin bieber </p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b27383e9b06ccd219248b5301264" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3> SHAPE OF YOU </h3>
+                                   <p>Ed Sheeran</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273a111c87c210cc9bff93948bd" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>Summer of Love</h3>
+                                   <p>shawn Mendes, Tainy</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273c820f033bd82bef4355d1563" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>Senorita</h3>
+                                    <p>Shawn Mendes, Camila Cabello</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2737c19386a7c7854ddd46a7c08" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>No Lie </h3>
+                                   <p>Sean Paul, Dua LIpa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="playlistGrid">
+                        <div class="featured-container">
+                            <div class="feature-headind"><h2>Populer Radio</h2></div>
+                        </div>
+                        <div class="musicPlayer-item featured-item">
+                            
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273459d675aa0b6f3b211357370" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>Let Me Down Slowly</h3>
+                                   <p>Alec Benjamin</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTezUoi8FXgoT-iGs0Y3Y44JFHHObt2US4Fag&s" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>I'm a Mess</h3>
+                                    <p>Bebe Rexha</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2731376b4b16f4bfcba02dc571b" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>Treat You Better </h3>
+                                   <p>Shawn Mendes</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273e7160c77ee143fef204b15eb" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>Bloody Mary - Sped Up</h3>
+                                    <p>northwest</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b27349e0134c686547c28b7c999f" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>Cheap Thrills</h3>
+                                    <p>Sia</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273a3a7f38ea2033aa501afd4cf" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3> Calm down</h3>
+                                    <p>Rema, Selena Gomez</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="playlistDetail">
+                        <!-- Playlist Detail Page content -->
+                        <div class="featured-container">
+                            <div class="feature-headind"><h2>All Time Best Hollywood Songs</h2></div>
+                        </div>
+                        <div class="musicPlayer-item featured-item">
+                            
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273897f73256b9128a9d70eaf66" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>Attention</h3>
+                                   <p>Charlie Puth</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2735675e83f707f1d7271e5cf8a" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>Thunder</h3>
+                                   <p>Imagine Dragons</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273de1a3a5eaa0c75bb18e7b597" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>Sucker</h3>
+                                    <p>Jonas Brothers</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2739e2f95ae77cf436017ada9cb" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                     <h3>Countring Stars</h3>
+                                   <p>One Republic</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273e14f11f796cef9f9a82691a7" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>Wake Me up</h3>
+                                    <p>Avicii</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273d304ba2d71de306812eebaf4" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>Night Changes</h3>
+                                    <p>one Direction</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="browse">
+                        <!-- Browse Section content -->
+                        <div class="featured-container">
+                            <div class="feature-headind"><h2>Tranding songs</h2></div>
+                        </div>
+                        <div class="musicPlayer-item featured-item">
+                            
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>One Dance </h3>
+                                   <p>Drake, Wizkid, Kyla</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273a954408e456d4d9d410f448b" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>Arcade</h3>
+                                    <p>Duncan Laurence</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273330f11fb125bb80b760f9e19" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                   <h3>MONLY</h3>
+                                   <p>Lisa</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2730a4e7589df4b89be72390585" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>Believer</h3>
+                                    <p>Imagine Dragons</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273307910d4242c0d6b1fedf955" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>Wolves</h3>
+                                    <p>Selena Golmez, Mashmello</p>
+                                </div>
+                            </div>
+                            <div class="musicPlayer-cart featured-cart" >
+                                <div class="play-btn-bottom">
+                                    <i class="fa solid fa-play"></i>
+                                </div>
+                                <div class="musicPlayer-cart-image">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273838698485511bd9108fadadc" alt="img">
+                                </div>
+                                <div class="cart-contents">
+                                    <h3>New Rules</h3>
+                                    <p>Dua lipa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <footer class="footer">
+                    <div class="footer-col">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">For the Record</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Community</h3>
+                        <ul>
+                            <li><a href="#">For Artists</a></li>
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Visitor</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Free Mobile App</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Spotify Plan</h3>
+                        <ul>
+                            <li><a href="#">Premium Individual</a></li>
+                            <li><a href="#">Premium Duo</a></li>
+                            <li><a href="#">Premium Family</a></li>
+                            <li><a href="#">Spotify Free</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Follow Us</h3>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-diviser">
+                        <p>&copy; Spotify_clone 2024</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        
+    </div>
+
+
+   <script src="script.js"></script>
+</body>
+
+</html>
