@@ -20,7 +20,7 @@ const gridItems = document.querySelectorAll('.featured-cart');
 
 gridItems.forEach(item => {
     item.addEventListener('click', function() {
-        const url = "MUSIC.HTML"; // Get the URL from the data-url attribute
+        const url = "music.html"; // Get the URL from the data-url attribute
         window.location.href = url; // Redirect to the specified URL
     });
 });
