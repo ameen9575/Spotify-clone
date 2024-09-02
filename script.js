@@ -5,10 +5,10 @@ function stickyNavbar() {
   
 
     if (container.scrollTop > 50) {
-        console.log("Adding sticky class"); // Debugging line
+        console.log("Adding sticky class"); 
         navbar.classList.add("sticky");
     } else {
-        console.log("Removing sticky class"); // Debugging line
+        console.log("Removing sticky class"); 
         navbar.classList.remove("sticky");
     }
 }
@@ -20,7 +20,7 @@ const gridItems = document.querySelectorAll('.featured-cart');
 
 gridItems.forEach(item => {
     item.addEventListener('click', function() {
-        const url = "music.html"; // Get the URL from the data-url attribute
-        window.location.href = url; // Redirect to the specified URL
+        const url = "music.html"; 
+        window.location.href = url; 
     });
 });
